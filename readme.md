@@ -6,6 +6,16 @@ cmt: CygMinTty
 Usage in Windows Explorer
 -------------------------
 
+### Prerequisite 
+
+Following lines in ~/.bashrc 
+
+	if [ -n "$STARTDIR" ]; then
+		cd "$STARTDIR"
+	fi
+
+### Usage 
+
 Place cmt.exe in a directory which is in the PATH. 
 
 In Windows Explorer, press `alt`+`d`to move focus to location bar, and type `cmt` then press `Enter`. Then mintty and bash will run on directory in where you were in Windows Explorer. 
