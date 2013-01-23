@@ -8,7 +8,7 @@ Usage in Windows Explorer
 
 Place cmt.exe in a directory which is in the PATH. 
 
-In Windows Explorer, press `alt`+`d`to move focus to location bar, and type `cmt<ENTER>`. Then mintty and bash will run on directory in where you were in Windows Explorer. 
+In Windows Explorer, press `alt`+`d`to move focus to location bar, and type `cmt` then press `Enter`. Then mintty and bash will run on directory in where you were in Windows Explorer. 
 
 
 Internals
